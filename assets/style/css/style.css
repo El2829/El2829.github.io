@@ -1,0 +1,135 @@
+/*--nav bar--*/
+
+.nav-area {
+    height: 65px;
+}
+
+.navbar {
+    border: 0;
+    margin-bottom: 0;
+}
+
+.navbar-collapse {
+    margin-left: 35px;
+}
+
+.navbar-brand {
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    display: block;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+.navbar-right li {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-right li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.navbar-right li.active a {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav>li>a:hover,
+.nav>li>a:active,
+.nav>li>a:focus {
+    background: none;
+}
+
+.nav-item>.nav-link:hover {
+    color: #B3B3B3;
+}
+
+
+/* banner-area */
+
+.banner-area {
+    /* The image used */
+    background-image: url("../../img/background/imagebanner.jpg");
+    /* size */
+    min-height: 100vh;
+    height: 100%;
+    /* width */
+    max-width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.navbar-toggler .icon-bar {
+    color: #033D75;
+}
+
+.banner-overlay {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-basis: auto;
+    -webkit-flex-basis: auto;
+    flex-grow: 1;
+}
+
+.container-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-style {
+    z-index: 1;
+    background-image: none;
+    position: relative;
+}
+
+
+/* .mbr-fullscreen .mbr-overlay {
+    min-height: 100vh;
+}
+
+.mbr-fullscreen {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+} */
+
+
+/* footer area */
+
+.footer-area {
+    background: #0F7699;
+    color: #FFFFFF;
+    padding: 30px 0;
+}
+
+.footer-icons a {
+    color: #ffffff;
+}
+
+.footer-icons a:hover {
+    color: #0861A3;
+}
